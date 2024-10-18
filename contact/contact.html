@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="correct-integrity-value" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <div class="nav" id="nav">
+            <div class="website">
+                <a href="../index.html">
+                    <img src="../imgs/eshop2.png" id="logo" alt="Logo" />
+                </a>
+            </div>
+            <div class="links">
+                <a href="../index.html">Home</a>
+                <a href="../about/about.html">About</a>
+                <a href="../contact/contact.html">Contact Us</a>
+            </div>
+            <div class="cart">
+                <i class="count" id="count"></i>
+                <a href="../cart/cart.html"><i style="font-size: 24px; cursor: pointer;">🛒</i></a>
+            </div>
+            <a class="icon" onclick="nav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="image">
+            <div class="content">
+                <h2>Contact US</h2>
+                <p id="contactUs">Feel free to contact us!</p>
+                <p id="contacts">We will get back to you soon!</p>
+                <img src="../imgs/contact.png" alt="" />
+            </div>
+        </div>
+        <div class="form" id="myForm">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <input class="input" type="text" id="fullName" placeholder="Your Name" name="name" />
+                    <input class="input" type="email" id="email" placeholder="Your Email" name="email" />
+                    <input class="input" type="password" id="password" placeholder="Your password"  name="password"/>
+                    <input class="input" type="text" id="phone" placeholder="Your Phone" name="mobile" />
+                    <input  class="input" type="text" name="address" id="address" placeholder="Enter Address" />
+                    <textarea class="input"id="message"  placeholder="Tell Us About Your Needs" name="message"></textarea>
+                    <span id="valid"></span>
+                    <input type="submit" class="submit" value="Send" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-Footer">
+            <div class="box" id="first">
+                <h3>E-Shop</h3>
+                <ul class="social">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text"> E-Shop Website</p>
+            </div>
+            <div class="box">
+                    <ul class="links-footer">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Conditions</a></li>
+                    </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Egypt, Menoufia, Shebin-Elkom</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        +201014782114
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Copyright &copy; 2024 Ahmed Allam</p>
+    </div>
+    <button id="backToTopBtn" title="Go to top" style="font-size: 44px;"><i class="fas fa-arrow-up"></i></button>
+    <script src="./js/contact.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./home/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="correct-integrity-value" crossorigin="anonymous">
+</head>
+<body><!-- <i class="fas fa-shopping-cart"></i> -->
+    <div class="header">
+        <div class="nav" id="nav">
+            <div class="website">
+                <a href="index.html">
+                    <img src="imgs/eshop2.png" id="logo" alt="Logo" />
+                </a>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="./about/about.html">About</a>
+                <a href="./contact/contact.html">Contact Us</a>
+            </div>
+            <div class="cart">
+                <i class="count" id="count"></i>
+                <a href="./cart/cart.html"><i style="font-size: 24px; cursor: pointer;">🛒</i></a>
+            </div>
+            <a class="icon" onclick="nav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div id="slider" class="slider">
+                <div class="actions-container">
+                    <div class="action lt" onclick="back()">❮</div>
+                    <div class="action gt" onclick="next()">❯</div>
+                </div>
+                <div class="slider-item active"><img id="img" src="./imgs/2.png" alt="" class="img-fluid"></div>
+            </div>
+        </div>
+        <div id="spiner"></div>
+        <div class="category" id="category"></div>
+        <div class="products" id="products"></div><br><br>
+        <div id="goal-section" class="goal">
+            <p class="title">Our Goal</p>
+            <div class="line"></div>
+            <p class="words">We are a technology workforce development company that helps people learn premium technology skills virtually and also guide them on their career success path.</p>
+            <div class="goals">
+                <div class="box">
+                    <p>01. Years of intense marketing<br>
+                        <span>We have successfully mentored over 500+ individuals
+                        in their tech career for the past three years.</span></p>
+                </div>
+                <div class="vline"></div>
+                <div class="box">
+                    <p>02. Products<br>
+                        <span>Several products has been worked
+                            on successfully by our cunstomers.</span></p>
+                </div>
+                <div class="vline"></div>
+                <div class="box">
+                    <p>03. Testimonials<br>
+                        <span>Amazing feedbacks from our mentees that are
+                            in their tech career for the past three years.
+                            already doing well in the tech industry.</span></p>
+                </div>
+            </div>
+        </div>
+            <br>
+        <div class="join">
+            <div class="right">
+                <p class="title">Become Our Customer Today</p>
+                <div class="line"></div>
+                <p class="sent">Join us today by providing us with basic
+                    information about you
+                </p>
+                <form>
+                    <a href="./contact/contact.html"><input type="submit" class="joinus" value="Join Us" /></a><br />
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container-Footer">
+                <div class="box-footer" id="first">
+                    <h3>E-Shop</h3>
+                    <ul class="social">
+                        <li>
+                            <a href="#" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="text"> E-Shop Website</p>
+                </div>
+                <div class="box-footer">
+                        <ul class="links-footer">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../about/about.html">About</a></li>
+                            <li><a href="../contact/contact.html">Contact</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Conditions</a></li>
+                        </ul>
+                </div>
+                <div class="box-footer">
+                    <div class="line">
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <div class="info">Egypt, Menoufia, Shebin-Elkom</div>
+                    </div>
+                    <div class="line">
+                        <i class="far fa-clock fa-fw"></i>
+                        <div class="info">Business Hours: From 10:00 To 18:00</div>
+                    </div>
+                    <div class="line">
+                        <i class="fas fa-phone-volume fa-fw"></i>
+                        <div class="info">
+                            +201014782114
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">Copyright &copy; 2024 Ahmed Allam</p>
+        </div>
+        <button id="backToTopBtn" title="Go to top" style="font-size: 44px;">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+    <script src="./home/js/home.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+</body>
+</html>

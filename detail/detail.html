@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="correct-integrity-value" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <div class="nav" id="nav">
+            <div class="website">
+                <a href="../index.html">
+                    <img src="../imgs/eshop2.png" id="logo" alt="Logo" />
+                </a>
+            </div>
+            <div class="links">
+                <a href="../index.html">Home</a>
+                <a href="../about/about.html">About</a>
+                <a href="../contact/contact.html">Contact Us</a>
+            </div>
+            <div class="cart">
+                <i class="count" id="count"></i>
+                <a href="../cart/cart.html"><i style="font-size: 24px; cursor: pointer;">🛒</i></a>
+            </div>
+            <a class="icon" onclick="nav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <h2 class="special-heading">About</h2>
+            <p>product details</p>
+            <div class="about-content">
+                <div class="image">
+                    <div class="img">
+                        <img id="image" src="" alt="" />
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="details">
+                        <h5 class="title" id="category"></h5>
+                        <p id="title"></p>
+                        <p id="about"></p>
+                    </div>
+                    <div>
+                        <div class="price-div">
+                            <p class="price" id="price"></p>
+                        </div>
+                    </div>
+                    <div class="cart-btns">
+                        <button class="add-to-cart" id="addToCart"> Add To Cart </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-Footer">
+            <div class="box-footer" id="first">
+                <h3>E-Shop</h3>
+                <ul class="social">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text"> E-Shop Website</p>
+            </div>
+            <div class="box-footer">
+                    <ul class="links-footer">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Conditions</a></li>
+                    </ul>
+            </div>
+            <div class="box-footer">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Egypt, Menoufia, Shebin-Elkom</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        +201014782114
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Copyright &copy; 2024 Ahmed Allam</p>
+    </div>
+    <button id="backToTopBtn" title="Go to top" style="font-size: 44px;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="./js/detail.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+</body>
+</html>

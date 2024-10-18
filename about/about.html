@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="correct-integrity-value" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <div class="nav" id="nav">
+            <div class="website">
+                <a href="../index.html">
+                    <img src="../imgs/eshop2.png" id="logo" alt="Logo" />
+                </a>
+            </div>
+            <div class="links">
+                <a href="../index.html">Home</a>
+                <a href="../about/about.html">About</a>
+                <a href="../contact/contact.html">Contact Us</a>
+            </div>
+            <div class="cart">
+                <i class="count" id="count"></i>
+                <a href="../cart/cart.html"><i style="font-size: 24px; cursor: pointer;">🛒</i></a>
+            </div>
+            <a class="icon" onclick="nav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div class="about">
+        <h2 class="main-title"><p>Welcome to <span>E-Shop</span>!</p></h2>
+        <div class="container">
+            <img src="../imgs/es.png" alt="" class="image" />
+            <div class="info">
+                <div class="box">
+                    <img src="../imgs/about-1.png" alt="" />
+                    <div class="text">
+                        <h3>Business Analysis</h3>
+                        <p> At <span>E-Shop</span>!, we are passionate about providing you with a seamless and enjoyable online shopping experience. 
+                            Our journey began with a simple idea: to offer high-quality products that cater to your needs and lifestyle.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../imgs/about-2.png" alt="" />
+                    <div class="text">
+                        <h3>Architecture</h3>
+                        <p> Our commitment to excellence extends beyond our products. We strive to create a community where every customer feels valued 
+                            and appreciated. Whether you're looking for the latest fashion trends, innovative gadgets, or everyday essentials, we've 
+                            got you covered.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../imgs/about-3.png" alt="" />
+                    <div class="text">
+                        <h3>Developement</h3>
+                        <p>As a team, we are dedicated to staying at the forefront of e-commerce innovation. Our website is designed to be user-friendly, 
+                            ensuring that you can easily find what you're looking for and enjoy a hassle-free shopping experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pricing" id="pricing">
+        <h2 class="main-title">Pricing Plans</h2>
+        <div class="container-price">
+            <div class="box">
+                <div class="title">Basic</div>
+                <img src="../imgs/basic.png" alt="" />
+                <div class="price">
+                    <span class="amount">$10</span>
+                    <span class="time">Per Month</span>
+                </div>
+                <ul>
+                    <li>get cache back</li>
+                    <li>limit on selling products</li>
+                    <li>Basic Support</li>
+                </ul>
+                <a href="#">Choose Plan</a>
+            </div>
+            <div class="box">
+                <div class="title">Professional</div>
+                <img src="../imgs/professional.png" alt="" />
+                <div class="price">
+                    <span class="amount">$20</span>
+                    <span class="time">Per Month</span>
+                </div>
+                <ul>
+                    <li>get cache back</li>
+                    <li>selling products</li>
+                    <li>Professional Support</li>
+                </ul>
+                <a href="#">Choose Plan</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-Footer">
+            <div class="box" id="first">
+                <h3>E-Shop</h3>
+                <ul class="social">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text"> E-Shop Website</p>
+            </div>
+            <div class="box">
+                    <ul class="links-footer">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Conditions</a></li>
+                    </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Egypt, Menoufia, Shebin-Elkom</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        +201014782114
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Copyright &copy; 2024 Ahmed Allam</p>
+    </div>
+    <button id="backToTopBtn" title="Go to top" style="font-size: 44px;"><i class="fas fa-arrow-up"></i></button>
+    <script src="./js/about.js"></script>
+</body>
+</html>
